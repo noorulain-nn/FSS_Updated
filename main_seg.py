@@ -30,7 +30,7 @@ if torch.cuda.is_available():
     torch.backends.cudnn.benchmark     = False
 
 # ── Config — same as APM paper Table 3 ─────────────────────────
-DATA_ROOT    = "C:\\data"   # ← set this to your path
+DATA_ROOT    = "./data/fss-data"  
 FOLD         = 0                       # Pascal-5i fold 0-3
 K_SHOT       = 1                       # 1-shot (or 5 for 5-shot)
 IMG_SIZE     = 473
